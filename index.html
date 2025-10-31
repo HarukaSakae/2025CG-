@@ -1,0 +1,85 @@
+
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CSSドロップダウンメニュー デモ</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="header">
+    <h1>CSSドロップダウンメニュー デモ</h1>
+    <p class="breadcrumbs">現在地：<a href="#home">HOME</a></p>
+  </div>
+
+  <!-- Navigation -->
+  <ul class="ddmenu" role="menubar" aria-label="グローバルナビゲーション">
+    <li role="none"><a role="menuitem" href="#home">HOME</a></li>
+
+    <li role="none">
+      <a role="menuitem" href="#news" aria-haspopup="true" aria-expanded="false">ニュース</a>
+      <ul role="menu">
+        <li role="none"><a role="menuitem" href="news-newproduct.html">新製品</a></li>
+        <li role="none"><a role="menuitem" href="news-service.html">新サービス</a></li>
+        <li role="none"><a role="menuitem" href="about-us.html">弊社について</a></li>
+      </ul>
+    </li>
+
+    <li role="none">
+      <a role="menuitem" href="#products" aria-haspopup="true" aria-expanded="false">製品・技術</a>
+      <ul role="menu">
+        <li role="none"><a role="menuitem" href="products-hw.html">ハードウェア</a></li>
+        <li role="none"><a role="menuitem" href="products-sw.html">ソフトウェア</a></li>
+        <li role="none"><a role="menuitem" href="products-web.html">ウェブサービス</a></li>
+      </ul>
+    </li>
+
+    <li role="none">
+      <a role="menuitem" href="#company" aria-haspopup="true" aria-expanded="false">会社情報</a>
+      <ul role="menu">
+        <li role="none"><a role="menuitem" href="company-overview.html">会社概要</a></li>
+        <li role="none"><a role="menuitem" href="ceo-message.html">社長挨拶</a></li>
+        <li role="none"><a role="menuitem" href="history.html">沿革</a></li>
+        <li role="none"><a role="menuitem" href="access.html">所在地</a></li>
+      </ul>
+    </li>
+
+    <li role="none">
+      <a role="menuitem" href="#contact" aria-haspopup="true" aria-expanded="false">お問い合わせ</a>
+      <ul role="menu">
+        <li role="none"><a role="menuitem" href="faq.html">よくあるご質問</a></li>
+        <li role="none"><a role="menuitem" href="contact-info.html">お問い合わせ先</a></li>
+      </ul>
+    </li>
+  </ul>
+
+  <!-- Main content with in-page anchors (jump targets) -->
+  <div class="container">
+    <section id="home">
+      <h1>HOME</h1>
+      <p></p>
+    </section>
+
+    <section id="news">
+      <h1>ニュース</h1>
+      <p></p>
+    </section>
+
+    <section id="products">
+      <h1>製品・技術</h1>
+      <p></p>
+    </section>
+
+    <section id="company">
+      <h1>会社情報</h1>
+      <p></p>
+    </section>
+
+    <section id="contact">
+      <h1>お問い合わせ</h1>
+      <p></p>
+    </section>
+  </div>
+</body>
+</html>
